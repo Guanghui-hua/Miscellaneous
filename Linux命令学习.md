@@ -6,7 +6,7 @@ ls -a  查看该级目录里面所有的文件
 命令英文原意： make directories  
 命令所在路径： /bin/mkdir  
 执行权限： 所有用户  
-语法： mkdir -p\[目录名\]  
+语法： mkdir -p[目录名]  
 功能描述： 创建新目录  
 
 不能在不存在的目录下面创建子目录  
@@ -43,4 +43,11 @@ rmdir 目录名称
 + 剪切文件、改名  mv
 原意： move  
 语法： mv 原文件或目录  目标目录  
->>>>>>> 751d7d8ed31b567aefb75a6e523d3c8b7b058195
+而且可以省略当前目录
+
+----------------------------------------------------
+我在我的Linux中创建的目录有
+/tmp/demo/test
+/tmp/demo1/test
+/tmp/study/math  
+/tmp/study/computer
