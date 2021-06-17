@@ -46,8 +46,3 @@ rmdir 目录名称
 而且可以省略当前目录
 
 ----------------------------------------------------
-我在我的Linux中创建的目录有  
-/tmp/demo/test  
-/tmp/demo1/test  
-/tmp/study/math    
-/tmp/study/computer  
