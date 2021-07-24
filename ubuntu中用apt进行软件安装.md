@@ -88,8 +88,11 @@ sudo dpkg -i <package.deb>
 
 从 https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 下载最新版本的安装文件
 在终端中执行以下命令：
+
 sudo apt install libappindicator1 libindicator7
+
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+
 sudo apt -f install
 
 2> 搜狗输入法
@@ -111,4 +114,5 @@ sudo apt install fcitx
 在终端中执行以下命令：
 
 sudo dpkg -i sogoupinyin_2.2.0.0108_amd64
+
 sudo apt -f install
