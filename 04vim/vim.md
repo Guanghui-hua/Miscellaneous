@@ -153,9 +153,9 @@ vim使用`y`命令实现拷贝命令  `y [数字] motion`
 
 `:s/old/new/g`  表示将光标所在行的所有old替换成了new
 
-`%:s/old/new/g`  表示替换整个文件中所有的old替换成new
+`:%s/old/new/g`  表示替换整个文件中所有的old替换成new
 
-`%:s/old/new/gc`  同上，但是在替换前会先请示
+`:%s/old/new/gc`  同上，但是在替换前会先请示
 
 `5,13s/old/new/g`  表示替换第5行到第13行中所有的old为new
 
