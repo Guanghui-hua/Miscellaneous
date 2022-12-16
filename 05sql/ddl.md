@@ -151,7 +151,7 @@ Fields defined as PRIMARY KEY cannot have 'duplicate values' and cannot be 'NULL
 ALTER TABLE tableName MODIFY fieldName fieldType PRIMARY KEY;
 ```
 
-example: set the 'id' field in the data table 'grade' as the primary key. <br> 'ALTER TABLE grade MODIFY id int PRIMARY KEY;`
+example: set the 'id' field in the data table 'grade' as the primary key. <br> `ALTER TABLE grade MODIFY id int PRIMARY KEY;`
 
 + Set primary key constraints by creating a new data table
 
@@ -162,7 +162,9 @@ CREATE TABLE tableName( field1 fieldType PRIMARY KEY,
 ```
 
 example:create a new data talbe 'example' and create a field 'id' with the property INT(10) and set it as the primary key.  `CREATE TABLE example( id INT(10) PRIMARY KEY);`
-+ set Multi-Field primary key constraints ```sql CREATE TABLE tableName(field1 fieldType, 
++ set Multi-Field primary key constraints 
+
+```sql CREATE TABLE tableName(field1 fieldType, 
 			field2 fieldType,
 			PRIMARY KEY(field1, field2)
 );
