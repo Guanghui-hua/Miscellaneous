@@ -161,10 +161,12 @@ CREATE TABLE tableName( field1 fieldType PRIMARY KEY,
 			field3 fieldType);
 ```
 
-example:create a new data talbe 'example' and create a field 'id' with the property INT(10) and set it as the primary key.  `CREATE TABLE example( id INT(10) PRIMARY KEY);`
+example:create a new data talbe 'example' and create a field 'id' with the property INT(10) and set it as the primary key.  <br> `CREATE TABLE example( id INT(10) PRIMARY KEY);`
+
 + set Multi-Field primary key constraints 
 
-```sql CREATE TABLE tableName(field1 fieldType, 
+```sql
+ CREATE TABLE tableName(field1 fieldType, 
 			field2 fieldType,
 			PRIMARY KEY(field1, field2)
 );
@@ -185,7 +187,7 @@ CREATE TABLE course(
 #### (3) UNIQUE
 
 Unique constraints are used to ensure the uniqueness of fields in a data table, i.e., the values of fields in the table cannot be repeated.
-Set a uniqueness constraint on the  field 'username' in the data table 'grade'.  `ALTER TABLE grade MODIFY username VARCHAR(20) UNIQUE;`
+Set a uniqueness constraint on the  field 'username' in the data table 'grade'. <br> `ALTER TABLE grade MODIFY username VARCHAR(20) UNIQUE;`
 
 #### (4) NOT NULL
 
