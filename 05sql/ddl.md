@@ -26,6 +26,31 @@ for examble, `ALTER DATABASE itcast DEFAULT CHARACTER SET gbk COLLATE gbk_bin; `
 
 We use the workbench(MySQL Workbench is a database modeling tool designed for MySQL) to export or import database.
 
+### import database
+
+```sql
+mysqldump -u userName -p dataBaseName > dataBaseName.sql
+
+```
+
+example: <br> ` mysqldump -u root -p stu_info >~/file/Mysql/stu_info.sql `
+
+### export database
+
++ Method 1
+
+```sql
+mysql -u username -p dataBaseName < path/dataBaseName.sql
+```
+
++ Method 2
+
+Using the `source` command requires that we first log in to mysql and create an empty database.
+
+```sql
+source + dataBaseName
+```
+
 ## 2.the basic operation of data tables
 
 ### 2.1 create a data table

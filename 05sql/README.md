@@ -4,17 +4,18 @@ SQL(Structured Query Language) is a database query language and programming lang
 
 ## Database Definition Language (DDL) 
 
-Database definition language is mainly used to define the database, table, etc, which includes CREATE statement, ALTER statement, DROP statement.
+Database definition language is mainly used to define the database, table, etc, which includes CREATE statement, ALTER statement, DROP statement .
+
+
 ` CREATE statement `  is used to create the database, data tables.
+
 ` ALTER statement ` is used to modify the definition of the table. 
+
 ` DROP statement ` is used to delete the database, delete the table. 
 
 ## Data Manipulation Language(DML)
 
-The data manipulation Language is mainly used to add, modify and delete operations to the database, which includes INSERT, UPDATE and DELETE statements;
-INSERT statement is used to insert data;
-UPDATE statement is used to modify data;
-DELETE statement is used to delete data;
+The data manipulation Language is mainly used to add, modify and delete operations to the database, which includes `INSERT`, `UPDATE` and `DELETE` statements; <br> INSERT statement is used to insert data;<br> UPDATE statement is used to modify data; <br> DELETE statement is used to delete data;
 
 ## Data Query Language(DQL)
 
