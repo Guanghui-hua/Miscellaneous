@@ -30,3 +30,57 @@ SELECT * FROM Product_ID, Product_Name FROM product WHERE Price >= 1000;
 
 ### query with `IN` keyword
 
+```sql
+
+SELECT * FROM product WHERE Product_Place in ('天津','日本','北京');
+
+```
+
+### query with  `BETWEEN ... AND ...` keyword
+
+```sql
+
+SELECT * FROM product WHERE Price BETWEEN 200 AND 500;
+
+```
+
+### query with `NULL` `DISTINCT`
+
+```sql
+
+SELECT Product_Name, Price FROM product WHERE Product_Place IS NULL;
+SELECT Product_Name, Price FROM product WHERE Prodcut_Place IS NOT NULL;
+
+SELECT DISTINCT Product_Place FROM product;
+SELECT DISTINCT Sort_ID, SubSort_ID FROM product;
+
+```
+
+
+### query with `LIKE` and `matching strings`
+
+```sql
+
+SELECT Product_ID, Product_Name, Price FROM product WHERE Product_Name LIKE '%复印机%';
+SELECT Product_ID, Product_Name, Price FROM product WHERE Product_Name LIKE '______复印机';
+SELECT Product_ID, Product_Name, Price FROM product WHERE Product_Name LIKE '%\_%'；
+
+```
+
+## search by condition
+
+
+```sql
+
+SELECT * FROM product WHERE Product_Name LIKE '%_复印机' AND Product_Place='天津';
+SELECT * FROM product WHERE Product_Name LIKE '%复印机' OR Product_Name LIKE '%过胶机';
+
+```
+
+`AND` has higher priority than `OR`
+
+```sql
+
+SELECT * FROM product WEHRE Product_Name LIKE '%复印机' AND Product_Place = '北京' OR Prodcut_Place LIKE '%过胶机' AND Product_Place = '北京';
+
+```
