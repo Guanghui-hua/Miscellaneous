@@ -84,3 +84,26 @@ SELECT * FROM product WHERE Product_Name LIKE '%复印机' OR Product_Name LIKE 
 SELECT * FROM product WEHRE Product_Name LIKE '%复印机' AND Product_Place = '北京' OR Prodcut_Place LIKE '%过胶机' AND Product_Place = '北京';
 
 ```
+
+## Advanced Query
+
+```sql
+
+SELECT AGE(Price) FROM product;
+SELECT MAX(Price) FROM product;
+SELECT MIN(Price) FROM product;
+
+SELECT COUNT(*) FROM product;
+
+SELECT * FROM product WHERE Product_Name LIKE '%理光%墨粉%' ORDER BY Price DESC;
+
+```
+
+```sql
+
+SELECT * FROM product WHERE Product_Name LIKE '%理光%墨粉%' GROUP BY Product_Place;
+
+```
+
+## Aliases for tables and fields
+
