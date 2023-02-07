@@ -25,3 +25,6 @@ The data control language is mainly used to control the user's access rights, wh
 
 The operation in the database are done by SQL language, and SQL statement are often used in the applications, for example, SQL statements are nested in Java language, and by excuting Java language to call SQL statements, you can insert, modify, delete, query and other operations of data. In addition, SQL statements can also be nested in other languages, such as C#, PHP, etc.
 
+
+[MySQL学习视频](https://www.bilibili.com/video/BV1UE41147KC/?spm_id_from=333.999.0.0&vd_source=2d8eac388c51569c9c8a0b39d279dc35)
+[该视频的笔记](https://zhuanlan.zhihu.com/p/222865842) 
